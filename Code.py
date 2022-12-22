@@ -285,7 +285,7 @@ while(1):
             print("Logged in Successfully!")
             res()
             break
-        elif email != stored_email and auth_hash != stored_pwd:
+       else:
             print("Login failed!")
-        else:
-            print("Wrong Choice!")
+    else:
+        print("Wrong Choice!")
